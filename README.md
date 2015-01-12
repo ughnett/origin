@@ -2,4 +2,6 @@
 Origin
 ===
 
-Origin is a fork of the Underscores base theme, with more focus placed on development tooling.
+Origin is loosely based on the Underscores base theme, but with more focus placed on development tooling (primarily in the form of adding Grunt).
+
+Documentation coming soon.

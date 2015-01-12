@@ -29,8 +29,7 @@ module.exports = function(grunt) {
 			browser: {
 				files: {
 					src: [
-						'assets/js/src/**/*.js',
-						'assets/js/test/**/*.js',
+						'assets/js/src/*.js',
 					]
 				},
 				options: {
@@ -52,7 +51,7 @@ module.exports = function(grunt) {
 		uglify: {
 			all: {
 				files: {
-					'assets/js/medicare_com.min.js': 'assets/js/src/medicare_com.js',
+					'assets/js/core.js': 'assets/js/src/core.js',
 				},
 				options: {
 					banner: '<%= meta.banner %>',
@@ -90,7 +89,7 @@ module.exports = function(grunt) {
 				}
 			},
 			scripts: {
-				files: ['assets/js/src/**/*.js', 'assets/js/vendor/**/*.js'],
+				files: ['assets/js/src/**/*.js'],
 				tasks: ['concat', 'uglify'],
 				options: {
 					debounceDelay: 500

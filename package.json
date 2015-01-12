@@ -1,24 +1,24 @@
 {
-	"name": "origin",
-	"title": "Origin",
-	"description": "A base theme developed by Jon Bellah",
-	"version": "0.1.0",
-	"homepage": "http://jonbellah.com",
-	"author": {
-		"name": "Jon Bellah",
-		"email": "jon@jonbellah.com",
-		"url": "http://jonbellah.com"
-	},
-	"devDependencies": {
-		"grunt": "~0.4.1",
-		"matchdep": "~0.1.2",
-		"grunt-contrib-concat": "~0.1.2",
-		"grunt-contrib-uglify": "~0.1.1",
-		"grunt-contrib-jshint": "~0.1.1",
-		"grunt-contrib-nodeunit": "~0.1.2",
-		"grunt-contrib-watch": "~0.2.0",
-		"grunt-contrib-sass": "~0.8.1",
-		"time-grunt": "^0.4.0"
-	},
-	"keywords": []
+  "name": "origin",
+  "title": "Origin",
+  "description": "A base theme developed by Jon Bellah",
+  "version": "0.1.0",
+  "homepage": "http://jonbellah.com",
+  "author": {
+    "name": "Jon Bellah",
+    "email": "jon@jonbellah.com",
+    "url": "http://jonbellah.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.1.2",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-sass": "~0.8.1",
+    "grunt-contrib-uglify": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "matchdep": "~0.1.2",
+    "time-grunt": "^0.4.0"
+  },
+  "keywords": []
 }

@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 				'* <%= pkg.title %> - v<%= pkg.version %>\n' +
 				'* <%= pkg.homepage %>\n' +
 				'*\n' +
-				'* Copyright (c) <%= grunt.template.today("yyyy") %> 10up\n' +
+				'* Copyright (c) <%= grunt.template.today("yyyy") %>\n' +
 				'* Licensed under the GPLv2+ license.\n' +
 				'*/'
 		},
@@ -22,14 +22,14 @@ module.exports = function(grunt) {
 			options: {
 				stripBanners: true,
 				banner: '<%= meta.banner %>'
-			},
+			}
 		},
 
 		jshint: {
 			browser: {
 				files: {
 					src: [
-						'assets/js/src/*.js',
+						'assets/js/src/*.js'
 					]
 				},
 				options: {
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 		uglify: {
 			all: {
 				files: {
-					'assets/js/core.js': 'assets/js/src/core.js',
+					'assets/js/core.js': 'assets/js/src/core.js'
 				},
 				options: {
 					banner: '<%= meta.banner %>',
@@ -72,10 +72,10 @@ module.exports = function(grunt) {
 		sass: {
 			all: {
 				options: {
-					banner: '<%= meta.banner %>'
+					style: 'compressed'
 				},
 				files: {
-					'style.css': 'assets/sass/style.scss',
+					'style.css': 'assets/sass/style.scss'
 				}
 			}
 		},
@@ -95,7 +95,7 @@ module.exports = function(grunt) {
 					debounceDelay: 500
 				}
 			}
-		},
+		}
 	} );
 
 	// Debugging why Grunt is so slow to compile Sass

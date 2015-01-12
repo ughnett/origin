@@ -16,7 +16,7 @@
 				<?php printf( __( 'Proudly powered by %s', 'origin' ), 'WordPress' ); ?>
 			</a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'origin' ), 'origin', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'origin' ), 'origin', '<a href="http://jonbellah.com/" rel="designer">Jon Bellah</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

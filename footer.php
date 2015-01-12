@@ -8,11 +8,13 @@
  */
 ?>
 
-	</div><!-- #content -->
+	</section><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'origin' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'origin' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'origin' ) ); ?>">
+				<?php printf( __( 'Proudly powered by %s', 'origin' ), 'WordPress' ); ?>
+			</a>
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'origin' ), 'origin', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->

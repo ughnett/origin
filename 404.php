@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-	<main id="primary" class="site-main" role="main">
+	<main id="primary" class="site-main" role="main" itemprop="mainContentOfPage">
 
 		<section class="error-404 not-found">
 			<header class="page-header">

@@ -8,7 +8,6 @@ There are almost as many starter themes as there are developers in the WordPress
 
 
 ### Getting Started
-===
 
 To start, `cd/to/origin`
 

@@ -7,4 +7,5 @@
 
 .bypostauthor {
 	display: block;
+	@include span-columns(4);
 }
